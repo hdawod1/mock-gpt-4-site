@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family:'Manrope';
+}
+
+body{
+    background-color:black;
+    margin:0;
+    padding:0;
+}
+
+.nav-items > *{
+    @apply lg:mx-4
+}
+
+.home-container > *{
+    @apply ml-8
+}
+
+.home-left-content > *{
+    @apply my-5
+}
+
+.about-container > *{
+    @apply m-5
+}
+
+.about-bottom-content > * {
+    @apply w-1/4
+}
+
+.about-bottom-content h4{
+    @apply my-6 font-extrabold text-2xl
+}
+
+.about-bottom-content p{
+    @apply text-[#81AFDD]
+}
+
+.openai-right > *{
+    @apply md:flex md:w-[590px] w-[300px] mb-[80px] md:mb-9
+}
+
+.openai-right h5{
+    @apply md:mt-0 mt-2
+}
+
+.openai-right div h5{
+    @apply mr-[110px] mb-4 font-extrabold text-white text-lg
+}
+
+.openai-right div p{
+    @apply text-[#81AFDD]
+}
+
+.caseStudies-left > *{
+    @apply my-6
+}
+
+.library-container > img{
+    @apply rounded-t-xl
+}
+
+.footer-bottom-info p{
+    @apply text-xs mt-5
+}
+
+.footer-bottom-info span{
+    @apply text-sm font-medium
+}
+
+.footer-bottom-info > *{
+    @apply mx-11
+}
