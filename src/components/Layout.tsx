@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
-import {FiMenu} from 'react-icons/fi'
+import Hamburger from 'hamburger-react'
 import Footer from './Footer'
 
 const Layout: React.FC = () => {
@@ -68,11 +68,9 @@ const Layout: React.FC = () => {
           </div>
         </div>
 
-        <FiMenu 
-		className="lg:hidden mx-4 h-6 w-6 cursor-pointer"
-		color="white"
-		onClick={toggleMenu} 
-	/>
+        <div className="lg:hidden mx-4 h-6 w-6 cursor-pointer" onClick={toggleMenu}>
+            <Hamburger color="white" />
+        </div>
       </div>
 
       <Outlet />

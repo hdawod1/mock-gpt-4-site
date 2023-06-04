@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
-// import '../styles.css'
+import { useDispatch } from 'react-redux'
+import { addUser } from './userSlice'
+import {nanoid} from 'nanoid'
 import { NavLink } from 'react-router-dom'
 
 const Signup: React.FC = () => {
@@ -8,14 +10,13 @@ const Signup: React.FC = () => {
     const [email, setEmail] = useState<string>('')
     const [password, setPassword] = useState<string>('')
 
-    useEffect(() => {
-        emailRef.current?.focus()
-    }, [])
+    const dispatch = useDispatch()
 
+    useEffect(() => { emailRef.current?.focus() }, [])
+    
     const handleSignup = (e: React.FormEvent) => {
         e.preventDefault()
-        localStorage.setItem('email', email)
-        localStorage.setItem('password', password)
+        dispatch(addUser({id: nanoid(), email, password}))
     }
 
     return (
