@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
-import Hamburger from 'hamburger-react'
+import {FiMenu} from 'react-icons/fi'
 import Footer from './Footer'
 
 const Layout: React.FC = () => {
@@ -68,9 +68,11 @@ const Layout: React.FC = () => {
           </div>
         </div>
 
-        <div className="lg:hidden mx-4 h-6 w-6 cursor-pointer" onClick={toggleMenu}>
-            <Hamburger color="white" />
-        </div>
+        <FiMenu 
+		className="lg:hidden mx-4 h-6 w-6 cursor-pointer"
+		color="white"
+		onClick={toggleMenu} 
+	/>
       </div>
 
       <Outlet />
@@ -79,4 +81,5 @@ const Layout: React.FC = () => {
   );
 };
 
-export default Layout
+export default Layout;
+
