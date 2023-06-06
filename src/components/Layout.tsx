@@ -68,7 +68,7 @@ const Layout: React.FC = () => {
           </div>
         </div>
 
-        <div className="lg:hidden mx-4 h-6 w-6 cursor-pointer" onClick={toggleMenu}>
+        <div className="lg:hidden mx-4 h-6 w-6 cursor-pointer mb-7" onClick={toggleMenu}>
             <Hamburger color="white" />
         </div>
       </div>
