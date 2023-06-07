@@ -35,11 +35,11 @@ body{
 }
 
 .about-bottom-content h4{
-    @apply my-6 font-extrabold text-2xl
+    @apply my-6 font-medium text-base md:font-extrabold md:text-2xl
 }
 
 .about-bottom-content p{
-    @apply text-[#81AFDD]
+    @apply text-[#81AFDD] text-sm md:text-base
 }
 
 .openai-right > *{
