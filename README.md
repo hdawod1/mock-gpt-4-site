@@ -1,6 +1,7 @@
+# Mock GPT-4 Info
 
+## Directory Structure
 ```
-mock-gpt-4-site
 ├─ .eslintrc.cjs
 ├─ .git
 │  ├─ COMMIT_EDITMSG
@@ -277,13 +278,7 @@ mock-gpt-4-site
 │  │     └─ userSlice.ts
 │  ├─ images
 │  │  ├─ case-studies-feature-image.png
-│  │  ├─ gary_marcus_article_picture.jpg
-│  │  ├─ home-atlassian.png
-│  │  ├─ home-dropbox.png
-│  │  ├─ home-google.png
 │  │  ├─ home-header-illustration.png
-│  │  ├─ home-shopify.png
-│  │  ├─ home-slack.png
 │  │  └─ library
 │  │     ├─ aiBinary.png
 │  │     ├─ aiChain.png
@@ -311,3 +306,9 @@ mock-gpt-4-site
 └─ vite.config.ts
 
 ```
+
+## How to run locally
+   1. Download the zip file and extract the contents
+   2. Open cmd (Command Prompt) or an IDE Terminal and type `cd` and the directory path of the root project seperated by a space and hit enter
+   3. Run `npm install` to install all dependencies
+   4. Run `npm run dev` to start the application locally
