@@ -278,13 +278,7 @@
 │  │     └─ userSlice.ts
 │  ├─ images
 │  │  ├─ case-studies-feature-image.png
-│  │  ├─ gary_marcus_article_picture.jpg
-│  │  ├─ home-atlassian.png
-│  │  ├─ home-dropbox.png
-│  │  ├─ home-google.png
 │  │  ├─ home-header-illustration.png
-│  │  ├─ home-shopify.png
-│  │  ├─ home-slack.png
 │  │  └─ library
 │  │     ├─ aiBinary.png
 │  │     ├─ aiChain.png
