@@ -11,22 +11,22 @@ const About: React.FC = () => {
             </div>
             <div className='flex justify-between items-center'>
                 <h3 className='text-4xl text-[#F49867] font-extrabold w-[70%]'>The possibilities are beyond your imagination</h3>
-                <p className='text-[#FF8A71] mr-4'>Explore The Library</p>
+                <p className='text-[#FF8A71] ml-4'>Explore The Library</p>
             </div>
-            <div className='about-bottom-content flex justify-between ml-2 text-center'>
+            <div className='about-bottom-content flex ml-2 justify-between lg:text-start'>
                 <div>
                     <h4>Chatbots</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
 numquam blanditiis harum quisquam numquam blanditiis harum</p>
                 </div>
-                <div className='mr-4'>
+                <div className='mx-4'>
                     <h4>Knowledge</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
 numquam blanditiis harum quisquam numquam blanditiis harum</p>
                 </div>
-                <div className='mr-2'>
+                <div className='ml-2'>
                     <h4>Education</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum

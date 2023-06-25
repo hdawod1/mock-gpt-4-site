@@ -6,7 +6,7 @@ const CaseStudies: React.FC = () => {
     return (
         <div className='text-white flex flex-col w-[85%] h-[50%] lg:m-auto p-[60px]'>
             <div className='md:flex items-center justify-between'>
-                <img className='flex flex-grow flex-shrink w-[546px] h-auto md:h-[607.53px]' src={featureImg} alt="Feature Image" />
+                <img className='flex flex-grow flex-shrink justify-center w-[800px] md:w-[546px] h-auto md:h-[607.53px]' src={featureImg} alt="Feature Image" />
                 <div className='mx-8 p-8 caseStudies-left w-full'>
                     <p className='text-[#71E5FF] font-medium'>Request Early Access to Get Started</p>
                     <h3 className='text-xl lg:text-4xl text-[#F49867] font-extrabold'>The possibilities are beyond your imagination</h3>
